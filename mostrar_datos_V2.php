@@ -15,7 +15,7 @@
         echo 'Edad: '.$fila["edad"].'<br/>';
         echo 'Correo: '.$fila["correo"].'<br/><br/>';
     }
-
+    echo '<br/><br/> <a href="inicio.html">Inicio</a>';
     $resultado->close();
 
 

@@ -8,5 +8,6 @@
     // $resultado=$conexion->query($sql);
 
     if ($conexion->query($sql)) {
-        echo 'Fila eliminada';
+        echo '<br/><br/>Fila eliminada';
+        echo '<br/><br/> <a href="inicio.html">Inicio</a>';
     }

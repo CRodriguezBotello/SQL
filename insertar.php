@@ -12,3 +12,4 @@
     if ($conexion->errno === 1062) {    //Se activa solo cuando el error es de clave duplicada.
         echo "Esta correo ya ha sido usado.";
     }
+    echo '<br/><br/> <a href="inicio.html">Inicio</a>';

@@ -11,7 +11,7 @@
         <fieldset>
             <caption>Dni a borrar</caption>
             <br/><br/>
-            <input type="text" name="idAlumno"><br/><br/>
+            <input type="number" name="idAlumno"><br/><br/>
             <input type="submit" value="Enviar">
         </fieldset>
     </form>
