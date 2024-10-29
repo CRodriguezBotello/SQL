@@ -10,5 +10,6 @@
     if ($conexion->query($sql)) {
         echo '<br/><br/>Fila eliminada';
         echo '<br/><br/> <a href="inicio.html">Inicio</a>';
+        echo '<br/><br/> <a href="mostrar_datos_V2.php">Mostrar Resultados</a>';
     }
     $conexion->close();
