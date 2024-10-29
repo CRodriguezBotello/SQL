@@ -14,4 +14,4 @@
 
     echo "$idAlumno, $nombre, $edad, $correo <br/>";
 
-    $resultado->close();
+    $conexion->close();

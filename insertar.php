@@ -13,3 +13,4 @@
         echo "Esta correo ya ha sido usado.";
     }
     echo '<br/><br/> <a href="inicio.html">Inicio</a>';
+    $conexion->close();

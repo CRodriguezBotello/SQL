@@ -29,6 +29,6 @@
         }
     }*/
 
-    $resultado->close();
+    $conexion->close();
 
     

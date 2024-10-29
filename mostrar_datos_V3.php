@@ -15,7 +15,7 @@
         }
     }
 
-    $recibir->close();
+    $conexion->close();
 
 
 

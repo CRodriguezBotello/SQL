@@ -11,3 +11,4 @@
         echo '<br/><br/>Fila eliminada';
         echo '<br/><br/> <a href="inicio.html">Inicio</a>';
     }
+    $conexion->close();
