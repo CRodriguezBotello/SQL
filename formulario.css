@@ -6,3 +6,7 @@ form{
 fieldset{
     border: 2px solid black;
 }
+
+#mensaje{
+    text-align: center;
+}

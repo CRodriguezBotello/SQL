@@ -10,7 +10,7 @@
     $conexion->query($sql);
     // echo $conexion->errno;       Muestra el ultimo código de error.
     if ($conexion->errno === 1062) {    //Se activa solo cuando el error es de clave duplicada.
-        echo "Esta correo ya ha sido usado.";
+        header('location:http://localhost/2DAW/DWES/SQL/formulario.php?mensaje=El correo '.$_POST["correo"].' ya ha sido añadido, elige otro');
     }
     echo '<br/><br/> <a href="inicio.html">Inicio</a>';
     echo '<br/><br/> <a href="mostrar_datos_V2.php">Mostrar Resultados</a>';

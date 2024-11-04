@@ -23,5 +23,16 @@
             <input type="submit" value="Enviar">
         </fieldset>
     </form>
+    <div id="mensaje">
+        <?php
+            if(empty($_GET["mensaje"])){
+                echo '';
+            }else{
+                echo $_GET["mensaje"];
+            }
+            
+            
+        ?>
+    </div>
 </body>
 </html>
